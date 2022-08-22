@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../concurrency/include/concurrency/concurrentQueue.h
+queue
+-
+mutex
+-
+condition_variable
+-
+
+../../concurrency/include/concurrency/threadPool.h
+atomic
+-
+thread
+-
+functional
+-
+concurrentQueue.h
+../../concurrency/include/concurrency/concurrentQueue.h
+
+/home/pjoter/eclipse-workspace/economy2/concurrency/src/threadPool.cpp
+concurrency/threadPool.h
+/home/pjoter/eclipse-workspace/economy2/concurrency/src/concurrency/threadPool.h
+

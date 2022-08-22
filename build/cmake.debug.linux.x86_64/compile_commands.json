@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/concurrency/include -I/home/pjoter/eclipse-workspace/economy2/banking/include -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest/include -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock/include -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock   -pthread -g   -std=gnu++14 -o CMakeFiles/testRunner.dir/test.cpp.o -c /home/pjoter/eclipse-workspace/economy2/test.cpp",
+  "file": "/home/pjoter/eclipse-workspace/economy2/test.cpp"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/concurrency/include -I/home/pjoter/eclipse-workspace/economy2/banking/include   -pthread -g   -std=gnu++14 -o CMakeFiles/economy2.dir/economy2.cpp.o -c /home/pjoter/eclipse-workspace/economy2/economy2.cpp",
+  "file": "/home/pjoter/eclipse-workspace/economy2/economy2.cpp"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock",
+  "command": "/usr/bin/c++   -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock/include -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest/include -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock/include -I/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest/include -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest",
+  "command": "/usr/bin/c++   -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest/include -isystem /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest/include -I/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/_deps/googletest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/banking",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/banking/include    -o CMakeFiles/banking.dir/src/centralBank.cpp.o -c /home/pjoter/eclipse-workspace/economy2/banking/src/centralBank.cpp",
+  "file": "/home/pjoter/eclipse-workspace/economy2/banking/src/centralBank.cpp"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/banking",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/banking/include    -o CMakeFiles/banking.dir/src/localBank.cpp.o -c /home/pjoter/eclipse-workspace/economy2/banking/src/localBank.cpp",
+  "file": "/home/pjoter/eclipse-workspace/economy2/banking/src/localBank.cpp"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/banking",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/banking/include    -o CMakeFiles/banking.dir/src/localClient.cpp.o -c /home/pjoter/eclipse-workspace/economy2/banking/src/localClient.cpp",
+  "file": "/home/pjoter/eclipse-workspace/economy2/banking/src/localClient.cpp"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/banking",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/banking/include    -o CMakeFiles/banking.dir/src/loan.cpp.o -c /home/pjoter/eclipse-workspace/economy2/banking/src/loan.cpp",
+  "file": "/home/pjoter/eclipse-workspace/economy2/banking/src/loan.cpp"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/banking",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/banking/include    -o CMakeFiles/banking.dir/src/dice.cpp.o -c /home/pjoter/eclipse-workspace/economy2/banking/src/dice.cpp",
+  "file": "/home/pjoter/eclipse-workspace/economy2/banking/src/dice.cpp"
+},
+{
+  "directory": "/home/pjoter/eclipse-workspace/economy2/build/cmake.debug.linux.x86_64/concurrency",
+  "command": "/usr/bin/c++   -I/home/pjoter/eclipse-workspace/economy2/concurrency/include    -o CMakeFiles/concurrency.dir/src/threadPool.cpp.o -c /home/pjoter/eclipse-workspace/economy2/concurrency/src/threadPool.cpp",
+  "file": "/home/pjoter/eclipse-workspace/economy2/concurrency/src/threadPool.cpp"
+}
+]

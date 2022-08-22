@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbanking.a  CMakeFiles/banking.dir/src/centralBank.cpp.o CMakeFiles/banking.dir/src/localBank.cpp.o CMakeFiles/banking.dir/src/localClient.cpp.o CMakeFiles/banking.dir/src/loan.cpp.o CMakeFiles/banking.dir/src/dice.cpp.o CMakeFiles/banking.dir/src/loggerClass.cpp.o
+/usr/bin/ranlib libbanking.a

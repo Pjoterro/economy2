@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/economy2.dir/economy2.cpp.o  -o economy2  concurrency/libconcurrency.a banking/libbanking.a 

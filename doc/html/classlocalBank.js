@@ -1,0 +1,26 @@
+var classlocalBank =
+[
+    [ "localBank", "classlocalBank.html#ac56ade0fb356356a9b3abaaf3899d471", null ],
+    [ "localBank", "classlocalBank.html#a8d6856a42d4c82687427b66066e3ce92", null ],
+    [ "~localBank", "classlocalBank.html#abfbf5f5de37a08acd04f0cc30119c319", null ],
+    [ "adjustInterestRate", "classlocalBank.html#a1cef7c5d7113ba0168c24c5133244943", null ],
+    [ "applyForLoan", "classlocalBank.html#aab41e3f1fba711a2f43dc9b9a6958f6a", null ],
+    [ "generateLoan", "classlocalBank.html#a06bdaf99cdac26ca6ad6b0b1cfc9e9f6", null ],
+    [ "generateTotalInstalmentsAmount", "classlocalBank.html#ae13f989d94e5c5bd7bb3f3d20d7fc014", null ],
+    [ "generateTotalLoanValue", "classlocalBank.html#afa9731212d86ad172ecdc8ab5ce6efc4", null ],
+    [ "get_bank", "classlocalBank.html#a78be624f91ca22d6a83ff508a908206d", null ],
+    [ "getCurrentTreasury", "classlocalBank.html#a8fe52ef1bd916ba3638369001877715b", null ],
+    [ "getInterestRate", "classlocalBank.html#ab3f8ac48d027b731438010542fe0fc6a", null ],
+    [ "getMasterBankPtr", "classlocalBank.html#a4b03ee9b2636d9666260299ba26e463a", null ],
+    [ "getName", "classlocalBank.html#a7ac621e24e336cba4a22d9f28b6da6c2", null ],
+    [ "increaseTreasury", "classlocalBank.html#af91782f366fe257d6f0f5d120450d21d", null ],
+    [ "loanProcessingMethod", "classlocalBank.html#ab88619628a549217de2c6f1681ad46a5", null ],
+    [ "loanValidationMethod", "classlocalBank.html#a6ecbda0eddaf5403d2fb3f88146a6ad6", null ],
+    [ "paymentMethod", "classlocalBank.html#ad717503faacea7bc0aa811e5df1e3178", null ],
+    [ "setAmountNeededForLoans", "classlocalBank.html#a39a752fc832ed4dbca5639bc4e21adeb", null ],
+    [ "shouldApplyForLoan", "classlocalBank.html#a605cbeb0a846ad028ba220c89d6a8c22", null ],
+    [ "amountNeededForLoans", "classlocalBank.html#a34667d27d0a99ee681b04d7b32f3df77", null ],
+    [ "masterBankPtr", "classlocalBank.html#a4b4abb0b837e246f08b74229d03b782e", null ],
+    [ "neededAmountThreshold", "classlocalBank.html#a7ef5ce71f647fc217e339e7f727d488f", null ],
+    [ "waitingLoans", "classlocalBank.html#a374134db8ab3992ab8ebf1bc65e95b13", null ]
+];

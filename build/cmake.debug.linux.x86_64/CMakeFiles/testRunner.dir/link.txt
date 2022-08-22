@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/testRunner.dir/test.cpp.o  -o testRunner  concurrency/libconcurrency.a banking/libbanking.a lib/libgtest_main.a lib/libgmock_main.a lib/libgmock.a lib/libgtest.a -lpthread 
