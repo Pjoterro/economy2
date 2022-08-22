@@ -116,28 +116,21 @@ $(document).ready(function(){initNavTree('centralBank_8h_source.html',''); initR
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classcentralBank.html#a88cf47fb36e42a85d1a1f891b8cbac5e">   24</a></span>&#160;    <a class="code" href="classcentralBank.html#a88cf47fb36e42a85d1a1f891b8cbac5e">~centralBank</a>() {};</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classcentralBank.html#a127864e9d531cced38bfc6429cb68fc2">   26</a></span>&#160;    <a class="code" href="classcentralBank.html">centralBank</a>&amp; <a class="code" href="classcentralBank.html#a127864e9d531cced38bfc6429cb68fc2">get_bank</a>() {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">static</span> <a class="code" href="classcentralBank.html">centralBank</a> <a class="code" href="classbank.html#acb084a87c3afd147319ce6f733b766cf">bank</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classbank.html#acb084a87c3afd147319ce6f733b766cf">bank</a>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcentralBank.html#a2ee26a50c31eb2d2ee718d95faaed390">loanProcessingMethod</a>(<a class="code" href="classloan.html">loan</a> *loanPtr) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcentralBank.html#af0204bb334ebe4908000263d106575f5">adjustInterestRate</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* LIB_CENTRALBANK_CENTRALBANK_H_ */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcentralBank.html#a2ee26a50c31eb2d2ee718d95faaed390">loanProcessingMethod</a>(<a class="code" href="classloan.html">loan</a> *loanPtr) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classcentralBank.html#af0204bb334ebe4908000263d106575f5">adjustInterestRate</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* LIB_CENTRALBANK_CENTRALBANK_H_ */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclasscentralBank_html_a5f6df4eb8af055a333610df6ec10b313"><div class="ttname"><a href="classcentralBank.html#a5f6df4eb8af055a333610df6ec10b313">centralBank::centralBank</a></div><div class="ttdeci">centralBank()</div><div class="ttdoc">central bank class constructor</div><div class="ttdef"><b>Definition:</b> centralBank.cpp:13</div></div>
-<div class="ttc" id="aclassbank_html_acb084a87c3afd147319ce6f733b766cf"><div class="ttname"><a href="classbank.html#acb084a87c3afd147319ce6f733b766cf">bank::bank</a></div><div class="ttdeci">bank(std::string nameArg, double totalTreasuryArg, double interestRateArg)</div><div class="ttdef"><b>Definition:</b> bank.h:42</div></div>
 <div class="ttc" id="abank_8h_html"><div class="ttname"><a href="bank_8h.html">bank.h</a></div></div>
 <div class="ttc" id="aclassbank_html"><div class="ttname"><a href="classbank.html">bank</a></div><div class="ttdoc">Bank class interface.</div><div class="ttdef"><b>Definition:</b> bank.h:23</div></div>
 <div class="ttc" id="aclasscentralBank_html_a88cf47fb36e42a85d1a1f891b8cbac5e"><div class="ttname"><a href="classcentralBank.html#a88cf47fb36e42a85d1a1f891b8cbac5e">centralBank::~centralBank</a></div><div class="ttdeci">~centralBank()</div><div class="ttdef"><b>Definition:</b> centralBank.h:24</div></div>
 <div class="ttc" id="aclasscentralBank_html_af0204bb334ebe4908000263d106575f5"><div class="ttname"><a href="classcentralBank.html#af0204bb334ebe4908000263d106575f5">centralBank::adjustInterestRate</a></div><div class="ttdeci">void adjustInterestRate() override</div><div class="ttdoc">Method to adjust interest rate based on treasury to total treasury ratio.</div><div class="ttdef"><b>Definition:</b> centralBank.cpp:37</div></div>
 <div class="ttc" id="aclasscentralBank_html_a2ee26a50c31eb2d2ee718d95faaed390"><div class="ttname"><a href="classcentralBank.html#a2ee26a50c31eb2d2ee718d95faaed390">centralBank::loanProcessingMethod</a></div><div class="ttdeci">void loanProcessingMethod(loan *loanPtr) override</div><div class="ttdoc">Loan processing method.</div><div class="ttdef"><b>Definition:</b> centralBank.cpp:20</div></div>
-<div class="ttc" id="aclasscentralBank_html_a127864e9d531cced38bfc6429cb68fc2"><div class="ttname"><a href="classcentralBank.html#a127864e9d531cced38bfc6429cb68fc2">centralBank::get_bank</a></div><div class="ttdeci">centralBank &amp; get_bank()</div><div class="ttdef"><b>Definition:</b> centralBank.h:26</div></div>
 <div class="ttc" id="aclasscentralBank_html"><div class="ttname"><a href="classcentralBank.html">centralBank</a></div><div class="ttdef"><b>Definition:</b> centralBank.h:12</div></div>
 <div class="ttc" id="aclassloan_html"><div class="ttname"><a href="classloan.html">loan</a></div><div class="ttdef"><b>Definition:</b> loan.h:16</div></div>
 <!-- start footer part -->

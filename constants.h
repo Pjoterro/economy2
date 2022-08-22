@@ -49,48 +49,7 @@ const int MINIMAL_INSTALLMENT_AMOUNT {10}; ///< Minimal amount of installments f
 //TODO: poprawic
 namespace ECONOMY2 {
 const int MAX_NUMBER_OF_ACTIVE_CLIENTS {10}; ///< Size of thread pool for single Local Bank instance
-const int MAX_NUMBER_OF_GENERATED_CLIENTS {100}; ///< Total number of clients throughout the whole simulation
-/*!
- * @brief Just some funny loading message
- */
-const std::vector<std::string> LOADING_MESSAGE_TEXT {
-    "Spinning up the hamster...",
-    "Shovelling coal into the server...",
-    "Programming the flux capacitor",
-    "Checking the gravitational constant in your locale",
-    "Moving the satellite into position",
-    "Must go faster, must go faster",
-    "Searching for Answer to Life, the Universe, and Everything",
-    "Waiting for the system admin to hit enter...",
-    "Warming up the processors...",
-    "RE-calibrating the internet...",
-    "Doing something useful...",
-    "Prepare for awesomeness!",
-    "Testing ozone.",
-    "Deterministically simulating the future.",
-    "Testing for perfection.",
-    "Your time is important to us. Please hold.",
-    "Loading new loading screen.",
-    "Recalculating PI....",
-    "Entertaining you while you wait...",
-    "Just stalling to simulate activity...",
-    "Creating Time-Loop Inversion Field",
-    "The internet is full... Please wait...",
-    "I know this is painful to watch, but I have to load this.",
-    "Buy more RAM...",
-    "Starting in 0...1...2...n...",
-    "Increasing speed to 88.8mph;",
-    "Communing with nature",
-    "Spinning the wheel of fortune",
-    "Computing chance of success",
-    "Preparing for hyperspace jump",
-    "Centralizing the processing units...",
-    "Randomizing memory access...",
-    "I'm sorry Dave, I can't do that",
-    "Calculating the odds...",
-    "Waiting for something in the server.",
-    "Calculating meaning of life...."
-};
+const int MAX_NUMBER_OF_GENERATED_CLIENTS {300}; ///< Total number of clients throughout the whole simulation
 }
 
 #endif /* CONSTANTS_H_ */

@@ -110,8 +110,8 @@ $(document).ready(function(){initNavTree('bank_8h_source.html',''); initResizabl
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="dice_8h.html">dice.h</a>&quot;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="client_8h.html">client.h</a>&quot;</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="loan_8h.html">loan.h</a>&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="logging_8h.html">logging.h</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;../../constants.h&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;../../constants.h&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="loggerClass_8h.html">loggerClass.h</a>&quot;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classbank.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="classbank.html">bank</a> {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('bank_8h_source.html',''); initResizabl
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment">//  };</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
 <div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="classbank.html#abcb6c232aef56f0ec9d4cf71efbcd5b9">  123</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classbank.html#abcb6c232aef56f0ec9d4cf71efbcd5b9">logEvent</a>(std::string stringArg) {</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <a class="code" href="classlogging.html#a4838e909826a6c1c334dcd5e314ccf04">logging::logEvent</a>(this-&gt;name + <span class="stringliteral">&quot; event: &quot;</span> + stringArg);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <a class="code" href="classloggerClass.html#a8fc7a38425fae2957c495a8e8c2b877b">loggerClass::logEvent</a>(this-&gt;name + <span class="stringliteral">&quot; event: &quot;</span> + stringArg);</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    };</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
 <div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="classbank.html#af51672db7d7fcaedcc7a947f682db90a">  130</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classbank.html#af51672db7d7fcaedcc7a947f682db90a">logCurrentTreasuryRate</a>() {</div>
@@ -233,14 +233,14 @@ $(document).ready(function(){initNavTree('bank_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassbank_html_acf2ac5dadb7106b3384888daac974395"><div class="ttname"><a href="classbank.html#acf2ac5dadb7106b3384888daac974395">bank::getInterestRate</a></div><div class="ttdeci">virtual double getInterestRate()</div><div class="ttdef"><b>Definition:</b> bank.h:110</div></div>
 <div class="ttc" id="aclassbank_html_a609f3311278517856a8ec031914e4507"><div class="ttname"><a href="classbank.html#a609f3311278517856a8ec031914e4507">bank::bankMTX</a></div><div class="ttdeci">std::mutex bankMTX</div><div class="ttdoc">Mutex used in implementation of these methods:</div><div class="ttdef"><b>Definition:</b> bank.h:31</div></div>
 <div class="ttc" id="aclassbank_html_ae60a779d2616cc805a0144e20bf655dd"><div class="ttname"><a href="classbank.html#ae60a779d2616cc805a0144e20bf655dd">bank::receivePayment</a></div><div class="ttdeci">void receivePayment(loan *loanPtr)</div><div class="ttdoc">Method which receives single installment payment.</div><div class="ttdef"><b>Definition:</b> bank.h:77</div></div>
-<div class="ttc" id="aclasslogging_html_a4838e909826a6c1c334dcd5e314ccf04"><div class="ttname"><a href="classlogging.html#a4838e909826a6c1c334dcd5e314ccf04">logging::logEvent</a></div><div class="ttdeci">static void logEvent(std::string input)</div><div class="ttdoc">Simple logging method.</div><div class="ttdef"><b>Definition:</b> logging.cpp:24</div></div>
 <div class="ttc" id="aclassbank_html_a39f356fad6c414f6467711472b18fcff"><div class="ttname"><a href="classbank.html#a39f356fad6c414f6467711472b18fcff">bank::getName</a></div><div class="ttdeci">std::string getName()</div><div class="ttdef"><b>Definition:</b> bank.h:99</div></div>
-<div class="ttc" id="alogging_8h_html"><div class="ttname"><a href="logging_8h.html">logging.h</a></div></div>
 <div class="ttc" id="aclassbank_html_ae371fe49cd549d57399caf0c51863518"><div class="ttname"><a href="classbank.html#ae371fe49cd549d57399caf0c51863518">bank::diceBank</a></div><div class="ttdeci">dice diceBank</div><div class="ttdoc">Dice object which is in &lt;loanProcessingMethod&gt;()</div><div class="ttdef"><b>Definition:</b> bank.h:30</div></div>
 <div class="ttc" id="aclassbank_html_af56c717f57a53adf80921e8963ea3a53"><div class="ttname"><a href="classbank.html#af56c717f57a53adf80921e8963ea3a53">bank::logCurrentInterestRate</a></div><div class="ttdeci">void logCurrentInterestRate()</div><div class="ttdoc">Method to log info about interest rate.</div><div class="ttdef"><b>Definition:</b> bank.h:141</div></div>
 <div class="ttc" id="aclassdice_html"><div class="ttname"><a href="classdice.html">dice</a></div><div class="ttdef"><b>Definition:</b> dice.h:10</div></div>
+<div class="ttc" id="aclassloggerClass_html_a8fc7a38425fae2957c495a8e8c2b877b"><div class="ttname"><a href="classloggerClass.html#a8fc7a38425fae2957c495a8e8c2b877b">loggerClass::logEvent</a></div><div class="ttdeci">static void logEvent(std::string input)</div><div class="ttdoc">Simple logging method.</div><div class="ttdef"><b>Definition:</b> loggerClass.cpp:24</div></div>
 <div class="ttc" id="aclassbank_html_a014031a1ee9d0c5ae4ffb5952f42c532"><div class="ttname"><a href="classbank.html#a014031a1ee9d0c5ae4ffb5952f42c532">bank::getCurrentTreasury</a></div><div class="ttdeci">double getCurrentTreasury()</div><div class="ttdef"><b>Definition:</b> bank.h:103</div></div>
 <div class="ttc" id="aclassloan_html"><div class="ttname"><a href="classloan.html">loan</a></div><div class="ttdef"><b>Definition:</b> loan.h:16</div></div>
+<div class="ttc" id="aloggerClass_8h_html"><div class="ttname"><a href="loggerClass_8h.html">loggerClass.h</a></div></div>
 <div class="ttc" id="aclient_8h_html"><div class="ttname"><a href="client_8h.html">client.h</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

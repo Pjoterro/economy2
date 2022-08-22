@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dice_135',['dice',['../classdice.html',1,'']]]
+  ['dice_132',['dice',['../classdice.html',1,'']]]
 ];

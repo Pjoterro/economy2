@@ -16,5 +16,5 @@ var hierarchy =
     ] ],
     [ "dice", "classdice.html", null ],
     [ "loan", "classloan.html", null ],
-    [ "logging", "classlogging.html", null ]
+    [ "loggerClass", "classloggerClass.html", null ]
 ];

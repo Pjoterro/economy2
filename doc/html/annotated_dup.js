@@ -7,7 +7,7 @@ var annotated_dup =
     [ "loan", "classloan.html", "classloan" ],
     [ "localBank", "classlocalBank.html", "classlocalBank" ],
     [ "localClient", "classlocalClient.html", "classlocalClient" ],
-    [ "logging", "classlogging.html", "classlogging" ],
+    [ "loggerClass", "classloggerClass.html", "classloggerClass" ],
     [ "mockCentralBank", "classmockCentralBank.html", "classmockCentralBank" ],
     [ "mockLocalBank", "classmockLocalBank.html", "classmockLocalBank" ],
     [ "mockLocalClient", "classmockLocalClient.html", "classmockLocalClient" ]

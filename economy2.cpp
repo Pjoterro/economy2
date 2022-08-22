@@ -45,7 +45,6 @@ void startCentralBank(centralBank* centralBankPtr);
 /*!
  * @brief method cout'ing funy messages (which shows that program is running and not freezed)
  */
-std::string randomLoadingMessage();
 
 int main(int argc, char **argv) {
 	cout << "App start" << endl;
@@ -90,7 +89,7 @@ void startLocalClient(localBank* localBankPtr) {
 	localBankPtr->loanProcessingMethod(localClientPtr->getLoanPtr());
 	while (localClientPtr->getLoanPtr()->isReadyToBePayed()) {
 		localClientPtr->paymentMethod();
-		this_thread::sleep_for(750ms);
+		this_thread::sleep_for(75ms);
 	}
 	{
 		unique_lock<mutex> ul(mtx);
@@ -115,25 +114,19 @@ void startLocalBank(localBank* localBankPtr) {
 			boost::asio::post(pool, [localBankPtr](){ startLocalClient(localBankPtr); });
 		}
 		localBankPtr->paymentMethod();
-		this_thread::sleep_for(500ms);
+		this_thread::sleep_for(50ms);
 	}
 	pool.join();
 	localBankPtr->logEvent("Local Clients threads joined ---");
-	this_thread::sleep_for(1000ms);
+	this_thread::sleep_for(100ms);
 	localBankPtr->logEvent("--- thread joined ---");
 }
 
 
 void startCentralBank(centralBank* centralBankPtr) {
 	while (totalLocalClientsCounter < ECONOMY2::MAX_NUMBER_OF_GENERATED_CLIENTS || currentQueuedClientsCounter > 0) {
-		this_thread::sleep_for(1000ms);
+		this_thread::sleep_for(100ms);
 		std::cout << "." << flush;
-//		this_thread::sleep_for(75000ms);
-//		std::cout << randomLoadingMessage() << std::endl;
 	}
 	std::cout << endl;
-}
-
-std::string randomLoadingMessage() {
-	return ECONOMY2::LOADING_MESSAGE_TEXT.at(rand() % ECONOMY2::LOADING_MESSAGE_TEXT.size());
 }

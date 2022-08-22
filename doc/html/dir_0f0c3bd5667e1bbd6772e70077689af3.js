@@ -21,7 +21,7 @@ var dir_0f0c3bd5667e1bbd6772e70077689af3 =
     [ "localClient.h", "localClient_8h.html", [
       [ "localClient", "classlocalClient.html", "classlocalClient" ]
     ] ],
-    [ "logging.h", "logging_8h.html", [
-      [ "logging", "classlogging.html", "classlogging" ]
+    [ "loggerClass.h", "loggerClass_8h.html", [
+      [ "loggerClass", "classloggerClass.html", "classloggerClass" ]
     ] ]
 ];

@@ -8,7 +8,6 @@ var classlocalBank =
     [ "generateLoan", "classlocalBank.html#a06bdaf99cdac26ca6ad6b0b1cfc9e9f6", null ],
     [ "generateTotalInstalmentsAmount", "classlocalBank.html#ae13f989d94e5c5bd7bb3f3d20d7fc014", null ],
     [ "generateTotalLoanValue", "classlocalBank.html#afa9731212d86ad172ecdc8ab5ce6efc4", null ],
-    [ "get_bank", "classlocalBank.html#a78be624f91ca22d6a83ff508a908206d", null ],
     [ "getCurrentTreasury", "classlocalBank.html#a8fe52ef1bd916ba3638369001877715b", null ],
     [ "getInterestRate", "classlocalBank.html#ab3f8ac48d027b731438010542fe0fc6a", null ],
     [ "getMasterBankPtr", "classlocalBank.html#a4b03ee9b2636d9666260299ba26e463a", null ],
