@@ -124,9 +124,14 @@ void startLocalBank(localBank* localBankPtr) {
 
 
 void startCentralBank(centralBank* centralBankPtr) {
+	int i {0};
 	while (totalLocalClientsCounter < ECONOMY2::MAX_NUMBER_OF_GENERATED_CLIENTS || currentQueuedClientsCounter > 0) {
-		this_thread::sleep_for(100ms);
+		this_thread::sleep_for(500ms);
 		std::cout << "." << flush;
+		i++;
+		if (i%20 == 0) {
+			std::cout << "\n" << flush;
+		}
 	}
 	std::cout << endl;
 }
